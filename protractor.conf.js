@@ -1,7 +1,9 @@
 exports.config = {
   // do not start a Selenium Standalone sever - only run this using chrome.
   chromeOnly: true,
-  chromeDriver: './node_modules/protractor/selenium/chromedriver',
+  //chromeDriver: './node_modules/protractor/selenium/chromedriver',
+  chromeDriver: '/usr/local/lib/node_modules/chromedriver/bin/chromedriver',
+
   baseUrl: 'http://localhost:9000',
 
   // spec patterns are relative to the current working directly when protractor is called
