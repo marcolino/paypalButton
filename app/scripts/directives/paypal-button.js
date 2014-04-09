@@ -71,7 +71,8 @@ angular.module('paypalButtonApp')
           '<input type="hidden" name="amount" value="' + amount + '">' +
           '<input type="image" src="' + imgSrc + '" border="0" name="submit" alt="' + imgAlt + '">' +
           '</form>';
-        element.replaceWith(template);
+        //element.replaceWith(template);
+        element.append(template);
       }
     };
   })
