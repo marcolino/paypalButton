@@ -1,9 +1,11 @@
-describe('paypalButton', function () {
-  ptor = protractor.getInstance();
+'use strict';
 
+describe('paypalButton', function () {
+  var targetUrl = '/#';
+  var ptor = protractor.getInstance();
   beforeEach(function() {
-    ptor.get('/#');
-    browser.waitForAngular();
+    ptor.ignoreSynchronization = true;
+    ptor.get(targetUrl);
   });
 
   it('PayPal page for business should be loaded', function() {
@@ -15,4 +17,5 @@ describe('paypalButton', function () {
       });
     }); 
   });
+
 });

@@ -4,7 +4,7 @@ exports.config = {
   //chromeDriver: './node_modules/protractor/selenium/chromedriver',
   //chromeDriver: '/usr/local/lib/node_modules/chromedriver/bin/chromedriver',
 
-  // do start a Selenium Standalone sever
+  // do start a Selenium Standalone server
   seleniumAddress: 'http://localhost:9515',
 
   baseUrl: 'http://localhost:9000',

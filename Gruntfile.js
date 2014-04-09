@@ -1,5 +1,4 @@
 // Generated on 2014-04-02 using generator-angular 0.8.0
-
 'use strict';
 
 // # Globbing
@@ -383,8 +382,8 @@ module.exports = function (grunt) {
     'concurrent:test',
     'autoprefixer',
     'connect:test',
-    'karma'//,
-    //'protractor:run'
+    'karma',
+    'protractor:run'
   ]);
 
   grunt.registerTask('build', [
