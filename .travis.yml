@@ -4,3 +4,8 @@ node_js:
 before_script:
   - 'npm install -g bower grunt-cli'
   - 'bower install'
+env:
+- [
+    {secure: "akuE0dld1Ke9mahjUUrQhUZRYWasdfewfwefewfZlbvOx\nqaPybirPGsDmImvcktaAkjLxpePd0V1+ak+4dws7dTrFfEsdvsdsdvsdvds2\nud1q5oGOzEqfiRGxY/fJHLWlaQ609Bsdfdsfds2VeY1Z/V7N9iQ="},
+    {secure: "JGfkAfr/SOlzV+NpgNi3fxP4F2usdfdsveGAppugHj1IxhoyjY\nOp07x4p1hdIfWVF03RqUrPNXkl72+yh53pv2fUzsdfsd3434GRjGy6J6\notuA/N+xs0+TP2ENlCmDauwO32Okfojvj7CgvsdfdsfRyaFzIGWPdw="}
+  ]

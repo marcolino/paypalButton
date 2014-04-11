@@ -382,8 +382,8 @@ module.exports = function (grunt) {
     'concurrent:test',
     'autoprefixer',
     'connect:test',
-    'karma',
-    'protractor:run'
+    'karma'
+    //, 'protractor:run' // should configure webdriver support in Travis-CI...
   ]);
 
   grunt.registerTask('build', [
