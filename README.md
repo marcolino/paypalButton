@@ -1,4 +1,4 @@
-# AngularJS paypalBytton Directive
+# AngularJS paypalButton Directive
 [![Build Status](https://travis-ci.org/marcolino/paypalButton.svg?branch=master)](https://travis-ci.org/marcolino/paypalButton)
 
 #### A directive to easily create a PayPal "Pay Now" button.
